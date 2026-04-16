@@ -1,0 +1,9 @@
+{
+  "template": "remote-worker",
+  "subject": "candidate.didx",
+  "requested_inputs": [
+    "work_reference",
+    "employment_context"
+  ],
+  "expiry_hours": 72
+}
