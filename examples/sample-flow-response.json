@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flow_id": "flow_demo_001",
+  "status": "pending_review",
+  "next_action": "collect_reference_signal"
+}
