@@ -6,7 +6,13 @@ This repository is the **public launchpad** and **reviewer-facing technical home
 
 ---
 
-## What PassPal is
+## One-line summary
+
+**PassPal turns targeted proof requests into decision-ready trust.**
+
+---
+
+## What PassPal does
 
 PassPal helps a service, verifier, reviewer, or partner:
 
@@ -36,7 +42,7 @@ PassPal is an **orchestration and decision layer**.
 
 **Current wedge:** Verified Work / Remote Worker TrustPass
 
-Current live direction:
+Current flow direction:
 
 1. A partner launches a trust-sensitive flow
 2. A user completes a proof or review step
@@ -70,7 +76,7 @@ Typical receipt fields include:
 - freshness / expiry
 - next action
 
-The goal is to produce something more useful than a simple “verified / not verified” result.
+The goal is to produce something more useful than a simple **verified / not verified** result.
 
 ---
 
@@ -90,32 +96,6 @@ The protocol and orchestration logic layer behind PassPal.
 The **trust registry**
 
 The public trust surface and registry layer where trust state becomes easier to read.
-
----
-
-## Repository purpose
-
-This repository exists to make PassPal easier to understand, review, and test.
-
-It is meant to help:
-
-- ecosystem reviewers
-- interoperability partners
-- relying-party / verifier reviewers
-- potential pilot partners
-- technical stakeholders evaluating the current wedge
-
-This repository is **not** presented as the full internal production source of truth.
-
-Its role is to provide:
-
-- product overview
-- architecture overview
-- current wedge explanation
-- sample payloads
-- sample receipt shape
-- API preview
-- launchpad and readiness notes
 
 ---
 
@@ -140,10 +120,15 @@ Its role is to provide:
 
 ---
 
-## Documentation
+## Quick links
 
 ### English
 - [English docs](docs/en/README.md)
+- [Product overview](docs/en/overview/product-overview.md)
+- [Current wedge](docs/en/overview/current-wedge.md)
+- [Remote Worker flow](docs/en/flows/remote-worker-flow.md)
+- [Receipt model](docs/en/flows/receipt-model.md)
+- [UNFOLD readiness](docs/en/launchpad/unfold-readiness.md)
 
 ### Français
 - [Documentation française](docs/fr/README.md)
@@ -154,19 +139,31 @@ Its role is to provide:
 ### 한국어
 - [한국어 문서](docs/kr/README.md)
 
-> **Language rule:** English is the canonical source for product and technical documentation.  
-> Localized docs help explain the system, but API contracts, schemas, examples, and logic remain single-source.
-
 ---
 
-## Suggested reading order
+## Repository purpose
 
-1. [Product overview](docs/en/overview/product-overview.md)
-2. [Current wedge](docs/en/overview/current-wedge.md)
-3. [Remote Worker flow](docs/en/flows/remote-worker-flow.md)
-4. [Receipt model](docs/en/flows/receipt-model.md)
-5. [API summary](docs/en/api/api-summary.md)
-6. [UNFOLD readiness](docs/en/launchpad/unfold-readiness.md)
+This repository exists to make PassPal easier to understand, review, and discuss.
+
+It is meant to help:
+
+- ecosystem reviewers
+- interoperability partners
+- relying-party / verifier reviewers
+- potential pilot partners
+- technical stakeholders evaluating the current wedge
+
+This repository is **not** presented as the full internal production source of truth.
+
+Its role is to provide:
+
+- product overview
+- architecture direction
+- current wedge explanation
+- sample payloads
+- sample receipt shape
+- API preview
+- launchpad and readiness notes
 
 ---
 
