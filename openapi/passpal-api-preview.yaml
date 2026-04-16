@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: PassPal API Preview
+  version: 0.1.0
+paths:
+  /v1/flows:
+    post:
+      summary: Create a flow
+      responses:
+        '200':
+          description: OK
+  /v1/receipts/{id}:
+    get:
+      summary: Get a receipt
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
