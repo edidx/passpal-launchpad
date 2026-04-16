@@ -1,0 +1,14 @@
+{
+  "receipt_id": "rcpt_demo_001",
+  "action": "remote_worker_review",
+  "requested_inputs": [
+    "work_reference",
+    "employment_context"
+  ],
+  "received_inputs": [
+    "work_reference"
+  ],
+  "outcome": "review",
+  "freshness": "72h",
+  "next_action": "request_one_more_proof"
+}
